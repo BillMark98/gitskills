@@ -7,5 +7,12 @@ int main(int argc, char *argv[],char * envp[])
 		printf("%s ",argv[count]);
 	}
 	printf("\n");
+	count = 0;
+	while(*envp)
+       		 {
+			count++;
+			printf("%s\n",*envp++);
+		 }	
+	printf("There are in all %d environment variables.\n",count);
 	return 0;
 }
