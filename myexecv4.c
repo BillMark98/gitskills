@@ -43,7 +43,6 @@ int main(int argc, char * argv[], char * envp[])
             
             printf("The path is : %s\n",path1);
             execv(path1,argv+1);
-	    exit(1);
         }
         else if(argc == 3)
         {

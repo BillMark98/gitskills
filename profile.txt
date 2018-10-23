@@ -1,0 +1,6 @@
+
+export PATH=/Users/bill/Desktop/java_princeton/TH_code/net:/Users/bill/Desktop/java_princeton/TH_code/net/mindview/util:${PATH}
+# Setting PATH for Python 3.5
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export PATH

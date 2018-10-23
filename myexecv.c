@@ -34,8 +34,11 @@ int main(int argc, char * argv[], char * envp[])
 	else if(argc == 3)
 	{
 		char * path = "/Users/bill/gitstuty/gitskills";
+		printf("In the 3.\n");
 		printf("The path is : %s\n",argv[2]);
+		printf("%s\n",argv[1]);
 		execv(argv[2],argv+1);
+		
 	}
 	printf("This line should not be printed.\n");
 	printf("command ls is not found, error code: %d(%s)\n", errno,
